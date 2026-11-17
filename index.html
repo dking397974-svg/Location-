@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>One-Time Location Share</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Location Share</h1>
+    <p>
+      Share your current location voluntarily.
+      Your location is not uploaded or stored.
+    </p>
+
+    <button id="share">Share My Location</button>
+    <p id="status" aria-live="polite">Waiting for your choice.</p>
+
+    <div id="result" hidden>
+      <p id="coordinates"></p>
+      <a id="map" target="_blank" rel="noopener">View on Map</a>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

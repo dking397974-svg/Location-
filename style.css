@@ -1,0 +1,45 @@
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: #0b1220;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  width: 100%;
+  max-width: 420px;
+  padding: 30px;
+  background: #182438;
+  border: 1px solid #334155;
+  border-radius: 18px;
+  text-align: center;
+}
+
+h1 { color: #60a5fa; }
+
+p { line-height: 1.6; color: #cbd5e1; }
+
+button {
+  width: 100%;
+  padding: 15px;
+  border: 0;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:focus-visible, a:focus-visible {
+  outline: 3px solid #fbbf24;
+  outline-offset: 3px;
+}
+
+a { color: #60a5fa; }
